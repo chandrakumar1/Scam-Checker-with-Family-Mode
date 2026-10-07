@@ -1,0 +1,21 @@
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local data (SQLite also writes -wal / -shm sidecar files)
+*.db
+*.db-wal
+*.db-shm
+*.sqlite3
+
+# OS / editor
+.DS_Store
+.idea/
